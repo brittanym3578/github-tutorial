@@ -22,7 +22,7 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
      [image](https://snag.gy/DKamFX.jpg)
      * There will be two options for you which are "Unlimited public repositories for free" or "Unlimited private repositories for $7/month." Choose either one of your preference
      * once you're done signing up, check your email and verify with github
-2. Go to c9.io
+2.Go to c9.io
    * create an account(first/last name, email, password)
    * once set up, press on the gear in the top right corner
    * go to connected services
