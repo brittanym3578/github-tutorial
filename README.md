@@ -27,8 +27,8 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
    * once set up, press on the gear in the top right corner
    * go to connected services
    * connect your github with cloud9 by clicking on the connect button
-3. In the future you will sign into cloud9 using your github account
-    * [if you want to sign-in to github using c9, this is what you should do.](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)  
+3.In the future you will sign into cloud9 using your github account
+   * [if you want to sign-in to github using c9, this is what you should do.](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)  
 
 **Follow these instructions below for how to use SSH** 
 1. First make sure you are in your github account.
