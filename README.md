@@ -16,17 +16,21 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
 
 ---
 ## Initial Setup
+
 **How to make a Github account**
+
 1. Go to [github.com](github.com) and press the button that says "sign up"
-    * Then enter the information that is required
+   * Then enter the information that is required
      [image](https://snag.gy/DKamFX.jpg)
-    * There will be two options for you which are "Unlimited public repositories for free" or "Unlimited private repositories for $7/month." Choose either one of your preference
-    * once you're done signing up, check your email and verify with github
+   * There will be two options for you which are "Unlimited public repositories for free" or "Unlimited private repositories for $7/month." Choose either one of your preference
+   * once you're done signing up, check your email and verify with github
+  
 2.Go to c9.io
    * create an account(first/last name, email, password)
    * once set up, press on the gear in the top right corner
    * go to connected services
    * connect your github with cloud9 by clicking on the connect button
+  
 3.In the future you will sign into cloud9 using your github account
    * [if you want to sign-in to github using c9, this is what you should do.](https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png)  
 
