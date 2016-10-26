@@ -124,16 +124,19 @@ Command        | Definition/Use
 
 ## Collaboration
 #### Fork
-Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository but without disrupting the original project. If you want to fork something yu just have to go to that project and click "fork" on the top right corner. 
+Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository but without disrupting the original project. If you want to fork something you just have to go to that project and click "fork" on the top right corner. 
 #### Pull Requests
 Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project.
 You click pull request to suggest those changes when you submit a pull request in your forked repository.
 [image](https://snag.gy/mFtbLW.jpg)
 ### Cloning
-It is making a copy from your remote repository (lives in the cloud) to your local repository
+It is making a copy from your remote repository (lives in the cloud) to your local repository  
 1. [image](https://snag.gy/Dq1E9j.jpg)
+
 2. [image](https://snag.gy/Bz3a0L.jpg)
+
 3. after cloned, cd into that directory
+
 ### Pull requests: 
 Help make other people’s projects better by offering your changes to them about the original project  
 Step 1: [image](https://snag.gy/DYHlEg.jpg)  
