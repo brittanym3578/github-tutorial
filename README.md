@@ -66,18 +66,24 @@ __**Down below are the instructions for how to create your 1st repository**__
 6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
     *After creating the repository on cloud9, follow the steps below and then continue with these two links from above
 
-**Add, Commit, and Push your First Changes**  
+**Add, Commit, and Push your First Changes**
+
 _Make your first repository on cloud9:_
+
 1. Go to c9.io and open your workspace
+
 2. Start typing in the commnad line and make sure you're inside your workspace
   * ``` cd ~/workspace```
+ 
 3. Then type in...
-  * ``` mkdir and (the name of your first repository on github)```
-  * Example: ```mkdir first-repo```
+    * ``` mkdir and (the name of your first repository on github)```
+    * Example: ```mkdir first-repo```
+    
 4. To go inside of your repository, type 
-  * ``` cd (name of your repository)```
+    * ``` cd (name of your repository)```
+    
 5. Then, type:
-  * ``` git init```
+    * ``` git init```
  
 _**Add a README.md file:**_
 1. In your command line, after the code you you are typing you shoul put:
