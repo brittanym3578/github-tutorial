@@ -64,7 +64,7 @@ __**Down below are the instructions for how to create your 1st repository**__
 5. finally, click **Create Repository** (remote repository)
 
 6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
-    *After creating the repository on cloud9, follow the steps below and then continue with these two links from above
+   *After creating the repository on cloud9, follow the steps below and then continue with these two links from above
 
 **Add, Commit, and Push your First Changes**
 
