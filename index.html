@@ -1,51 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>GitHub-tutorial by brittanym3578</title>
-  </head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
   <body>
-    <a id="forkme_banner" href="https://github.com/brittanym3578/github-tutorial">View on GitHub</a>
-    <div class="shell">
 
       <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>GitHub-tutorial</h1>
-            <h2>Welcome to the world of Github </h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+        <h1>GitHub-tutorial</h1>
+        <p>Welcome to the world of Github </p>
       </header>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/brittanym3578/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/brittanym3578/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+      <div id="banner">
+        <span id="logo"></span>
 
+        <a href="https://github.com/brittanym3578/github-tutorial" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/brittanym3578/github-tutorial/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/brittanym3578/github-tutorial/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
         <h1>
 <a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
 
@@ -80,7 +73,7 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
 
 <ul>
 <li>Then enter the information that is required
-<a href="https://snag.gy/DKamFX.jpg">image</a>
+<img src="https://snag.gy/DKamFX.jpg" alt="image">
 </li>
 <li>There will be two options for you which are "Unlimited public repositories for free" or "Unlimited private repositories for $7/month." Choose either one of your preference</li>
 <li>once you're done signing up, check your email and verify with github</li>
@@ -291,7 +284,7 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
 
 <p>Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project.
 You click pull request to suggest those changes when you submit a pull request in your forked repository.
-<a href="https://snag.gy/mFtbLW.jpg">image</a></p>
+<img src="https://snag.gy/mFtbLW.jpg" alt="image"></p>
 
 <h3>
 <a id="cloning" class="anchor" href="#cloning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cloning</h3>
@@ -299,8 +292,8 @@ You click pull request to suggest those changes when you submit a pull request i
 <p>It is making a copy from your remote repository (lives in the cloud) to your local repository</p>
 
 <ol>
-<li><p><a href="https://snag.gy/Dq1E9j.jpg">image</a></p></li>
-<li><p><a href="https://snag.gy/Bz3a0L.jpg">image</a></p></li>
+<li><p><img src="https://snag.gy/Dq1E9j.jpg" alt="image"></p></li>
+<li><p><img src="https://snag.gy/Bz3a0L.jpg" alt="image"></p></li>
 <li><p>after cloned, cd into that directory </p></li>
 </ol>
 
@@ -308,25 +301,16 @@ You click pull request to suggest those changes when you submit a pull request i
 <a id="pull-requests-1" class="anchor" href="#pull-requests-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull requests:</h3>
 
 <p>Help make other people’s projects better by offering your changes to them about the original project<br>
-Step 1: <a href="https://snag.gy/DYHlEg.jpg">image</a><br>
+Step 1: <img src="https://snag.gy/DYHlEg.jpg" alt="image"><br>
 Step 2: Add a description of what you want to change and submit your pull requests
-<a href="https://snag.gy/cDPvyM.jpg">image</a></p>
+<img src="https://snag.gy/cDPvyM.jpg" alt="image"></p>
       </section>
-
       <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/brittanym3578">brittanym3578</a> can be found on <a href="https://github.com/brittanym3578/github-tutorial">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+        <p>Project maintained by <a href="https://github.com/brittanym3578">brittanym3578</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
-
     </div>
-
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
