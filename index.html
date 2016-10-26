@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub-tutorial by brittanym3578</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/brittanym3578/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub-tutorial</h1>
+            <h2>Welcome to the world of Github </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/brittanym3578/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/brittanym3578/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Brittany Misacango</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git and github are both brilliant ways to manage code that almost every developer uses it, but at the same time they have their differences. The main reason as to why they are different is because git is the version control tool that GitHub is built on top of 
+and GitHub is a website where you can upload a copy of your Git repository. Their differences are listed below.</p>
+
+<h5>
+<a id="differences" class="anchor" href="#differences" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Differences</h5>
+
+<ul>
+<li>Git keeps snapshots of code</li>
+<li>Github is not needed in order to use Git but Git is required in order to use Github</li>
+<li>Github stores code in the cloud and it's easy to track changes </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><strong>How to make a Github account</strong></p>
+
+<ol>
+<li>Go to <a href="github.com">github.com</a> and press the button that says "sign up"
+
+<ul>
+<li>Then enter the information that is required
+<a href="https://snag.gy/DKamFX.jpg">image</a>
+</li>
+<li>There will be two options for you which are "Unlimited public repositories for free" or "Unlimited private repositories for $7/month." Choose either one of your preference</li>
+<li>once you're done signing up, check your email and verify with github</li>
+</ul>
+</li>
+</ol>
+
+<p>2.Go to c9.io</p>
+
+<ul>
+<li>create an account(first/last name, email, password)</li>
+<li>once set up, press on the gear in the top right corner</li>
+<li>go to connected services</li>
+<li>connect your github with cloud9 by clicking on the connect button</li>
+</ul>
+
+<p>3.In the future you will sign into cloud9 using your github account</p>
+
+<ul>
+<li>
+<a href="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png">if you want to sign-in to github using c9, this is what you should do.</a><br>
+</li>
+</ul>
+
+<p><strong>Follow these instructions below for how to use SSH</strong></p>
+
+<ol>
+<li><p>First make sure you are in your github account.</p></li>
+<li><p>Go to your settings which is located in the top-right profile icon </p></li>
+<li>Now that you're their, in the left side-bar you are going to see "SSH and GPG keys" (Click on that)</li>
+<li>Press on New SSH key and put a title of your preference</li>
+<li>Now for the <em>key</em>, which is below the title, switch to your cloud9 tab</li>
+<li>Click on the gear icon which is on the top-right </li>
+<li>Press on SSH keys tab and copy/paste your SSH key into GitHub</li>
+<li>Add the SSH</li>
+<li>Lastly go to your cloud9 and open github-learning IDE</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><strong><strong>Down below are the instructions for how to create your 1st repository</strong></strong></p>
+
+<ol>
+<li>
+<p>go to Github.com and click on the <strong>(+)</strong>, then click <strong>New Repository</strong></p>
+
+<ul>
+<li><a href="https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/help/repository/repo-create.png">here is an example of what it should look like</a></li>
+</ul>
+</li>
+<li><p>Create a short name for your repository</p></li>
+<li><p>Make sure it's <strong>Public</strong>, so people can check out your work, fork it and add their own changes to make it better (with your permission)</p></li>
+<li><p>Select <strong>initialize this repository with a README.md</strong></p></li>
+<li><p>finally, click <strong>Create Repository</strong> (remote repository)</p></li>
+<li>
+<p>Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"</p>
+
+<ul>
+<li>After creating the repository on cloud9, follow the steps below and then continue with these two links from above</li>
+</ul>
+</li>
+</ol>
+
+<p><strong>Add, Commit, and Push your First Changes</strong></p>
+
+<p><em>Make your first repository on cloud9:</em></p>
+
+<ol>
+<li><p>Go to c9.io and open your workspace</p></li>
+<li>
+<p>Start typing in the command line and make sure you're inside your workspace</p>
+
+<ul>
+<li><code>cd ~/workspace</code></li>
+</ul>
+</li>
+<li>
+<p>Then type in...</p>
+
+<ul>
+<li><code>mkdir and (the name of your first repository on github)</code></li>
+<li>Example: <code>mkdir first-repo</code>
+</li>
+</ul>
+</li>
+<li>
+<p>To go inside of your repository, type </p>
+
+<ul>
+<li><code>cd (name of your repository)</code></li>
+</ul>
+</li>
+<li>
+<p>Then, type:</p>
+
+<ul>
+<li><code>git init</code></li>
+</ul>
+</li>
+</ol>
+
+<p><em><strong>Add a README.md file:</strong></em></p>
+
+<ol>
+<li>
+<p>In your command line, after the code you you are typing you shoul put:</p>
+
+<ul>
+<li><code>touch README.md</code></li>
+</ul>
+</li>
+<li><p>To go to the file you can either press on the file in the sidebar under the name of your repository or you can type <code>c9 README.md</code></p></li>
+<li><p>Now that you are in the README.md file, type in a message that will show up in your github</p></li>
+<li><p>Make sure your work in the file is saved by pressing "command" &amp; "s"</p></li>
+<li>
+<p>Then in the command line, type:</p>
+
+<ul>
+<li><code>git add .</code></li>
+</ul>
+</li>
+<li>
+<p>Next, make a commit message that is in the present tense, short, to the point, and about the change you just executed; type:</p>
+
+<ul>
+<li><code>git commit -m "message "</code></li>
+</ul>
+</li>
+<li>
+<p>Copy/paste the links one at a time in the command line after following the previous directions</p>
+
+<ul>
+<li><code>git remote add origin git@github.com:brittany3578/third-repo.git</code></li>
+<li><code>git push -u origin master</code></li>
+</ul>
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Definition/Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git init</code></td>
+<td>Initializes git in the directory (repository); only done once when the folder is just created. If git is initialized in the wrong directory, then you technically would be working on your project in the wrong place and not the folder originally thought of so you have to do <code>cd</code> into the directory of your choice and then initialize git.</td>
+</tr>
+<tr>
+<td><code>git add .</code></td>
+<td>Adds the current/entire directory</td>
+</tr>
+<tr>
+<td><code>git commit -m "message"</code></td>
+<td>Takes a snapshot of the files on the stage. It should describe what was modified in the snapshot</td>
+</tr>
+<tr>
+<td><code>rm -rf .git</code></td>
+<td>Uninitializes git in the working directory. Rm means remove and the r means recursively, which makes it continue deleting until everything in that specific place is gone and the f means forcefully, which means that it will delete no matter how protected it is.</td>
+</tr>
+<tr>
+<td><code>git push -u origin master</code></td>
+<td>Pushes committed changes into the repository</td>
+</tr>
+<tr>
+<td><code>git log</code></td>
+<td>This shows the previous commands in detail. It is listed in reverse chronological order</td>
+</tr>
+<tr>
+<td><code>git diff</code></td>
+<td>Will show you the differences between your current commit and the previous commit</td>
+</tr>
+<tr>
+<td><code>q</code></td>
+<td>Quits the git diff mode</td>
+</tr>
+<tr>
+<td><code>git status</code></td>
+<td>Optional command that lets you see files that have been edited since the last commit. It would either be red or green</td>
+</tr>
+<tr>
+<td><code>git add --all</code></td>
+<td>Includes all changes aswell as the deleted files</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<h4>
+<a id="fork" class="anchor" href="#fork" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fork</h4>
+
+<p>Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository but without disrupting the original project. If you want to fork something you just have to go to that project and click "fork" on the top right corner. </p>
+
+<h4>
+<a id="pull-requests" class="anchor" href="#pull-requests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull Requests</h4>
+
+<p>Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project.
+You click pull request to suggest those changes when you submit a pull request in your forked repository.
+<a href="https://snag.gy/mFtbLW.jpg">image</a></p>
+
+<h3>
+<a id="cloning" class="anchor" href="#cloning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cloning</h3>
+
+<p>It is making a copy from your remote repository (lives in the cloud) to your local repository</p>
+
+<ol>
+<li><p><a href="https://snag.gy/Dq1E9j.jpg">image</a></p></li>
+<li><p><a href="https://snag.gy/Bz3a0L.jpg">image</a></p></li>
+<li><p>after cloned, cd into that directory </p></li>
+</ol>
+
+<h3>
+<a id="pull-requests-1" class="anchor" href="#pull-requests-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull requests:</h3>
+
+<p>Help make other people’s projects better by offering your changes to them about the original project<br>
+Step 1: <a href="https://snag.gy/DYHlEg.jpg">image</a><br>
+Step 2: Add a description of what you want to change and submit your pull requests
+<a href="https://snag.gy/cDPvyM.jpg">image</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/brittanym3578">brittanym3578</a> can be found on <a href="https://github.com/brittanym3578/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
