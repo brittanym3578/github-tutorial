@@ -130,12 +130,12 @@ Pull requests are ways that people who have forked your repository and have made
 You click pull request to suggest those changes when you submit a pull request in your forked repository.
 [image](https://snag.gy/mFtbLW.jpg)
 ### Cloning
-It is making a copy from your remote repository (lives in the cloud) to your local repository  
+It is making a copy from your remote repository (lives in the cloud) to your local repository
 1. [image](https://snag.gy/Dq1E9j.jpg)
 
 2. [image](https://snag.gy/Bz3a0L.jpg)
 
-3. after cloned, cd into that directory
+3. after cloned, cd into that directory 
 
 ### Pull requests: 
 Help make other people’s projects better by offering your changes to them about the original project  
