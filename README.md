@@ -45,15 +45,23 @@ and GitHub is a website where you can upload a copy of your Git repository. Thei
 
 ---
 ## Repository Setup
+
 __**Down below are the instructions for how to create your 1st repository**__
+
 1. go to Github.com and click on the **(+)**, then click **New Repository**
     * [here is an example of what it should look like](https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/help/repository/repo-create.png)
+
 2. Create a short name for your repository
+
 3. Make sure it's **Public**, so people can check out your work, fork it and add their own changes to make it better (with your permission)
+
 4. Select **initialize this repository with a README.md**
+
 5. finally, click **Create Repository** (remote repository)
+
 6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
     *After creating the repository on cloud9, follow the steps below and then continue with these two links from above
+
 **Add, Commit, and Push your First Changes**  
 _Make your first repository on cloud9:_
 1. Go to c9.io and open your workspace
