@@ -64,7 +64,7 @@ __**Down below are the instructions for how to create your 1st repository**__
 5. finally, click **Create Repository** (remote repository)
 
 6. Copy/paste the two links under the section titled "or push an existing repository from the commnad line, one at a time"
-   *After creating the repository on cloud9, follow the steps below and then continue with these two links from above
+    * After creating the repository on cloud9, follow the steps below and then continue with these two links from above
 
 **Add, Commit, and Push your First Changes**
 
@@ -72,7 +72,7 @@ _Make your first repository on cloud9:_
 
 1. Go to c9.io and open your workspace
 
-2. Start typing in the commnad line and make sure you're inside your workspace
+2. Start typing in the command line and make sure you're inside your workspace
   * ``` cd ~/workspace```
  
 3. Then type in...
@@ -86,15 +86,22 @@ _Make your first repository on cloud9:_
     * ``` git init```
  
 _**Add a README.md file:**_
+
 1. In your command line, after the code you you are typing you shoul put:
     * ``` touch README.md```
+    
 2. To go to the file you can either press on the file in the sidebar under the name of your repository or you can type ``` c9 README.md```
+
 3. Now that you are in the README.md file, type in a message that will show up in your github
+
 4. Make sure your work in the file is saved by pressing "command" & "s"
+
 5. Then in the command line, type:
     * ``` git add .```
+
 6. Next, make a commit message that is in the present tense, short, to the point, and about the change you just executed; type:
     * ```git commit -m "message " ```
+
 7. Copy/paste the links one at a time in the command line after following the previous directions
     * ```git remote add origin git@github.com:brittany3578/third-repo.git ```
     * ``` git push -u origin master ```
